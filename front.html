@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">MovieBot</div>
+        <div class="search">
+            <input type="text" id="searchBar" placeholder="Search for movies, actors, genres...">
+            <button onclick="searchMovie()">Search</button>
+        </div>
+    </header>
+
+    <!-- Main Chatbox Section -->
+    <main>
+        <section id="chatbox">
+            <div class="message bot-message">
+                <span>Welcome! How can I help you with movie recommendations?</span>
+            </div>
+        </section>
+
+        <!-- Movie Recommendation Section -->
+        <section id="movie-recommendations">
+            <h2>Top Recommended Movies</h2>
+            <!-- Movie cards will be generated here dynamically -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a> | 
+            <a href="#">Contact</a> | 
+            <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript for handling user interaction -->
+    <script src="script.js"></script>
+
+</body>
+</html>

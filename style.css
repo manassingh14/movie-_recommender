@@ -1,0 +1,119 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header section styling */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.search input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.search button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Main chatbox section */
+main {
+    padding: 1rem;
+}
+
+#chatbox {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.message {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.user-message {
+    background-color: #007BFF;
+    color: white;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: #f1f1f1;
+    color: black;
+    text-align: left;
+}
+
+/* Movie recommendation section */
+#movie-recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+#movie-recommendations h2 {
+    width: 100%;
+}
+
+.movie-card {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.movie-card img {
+    width: 100px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.movie-info h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* Footer section styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
